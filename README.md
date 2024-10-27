@@ -1,4 +1,4 @@
-# [![AI Craftr Logo](https://res.cloudinary.com/dyknhuvxt/image/upload/v1730059761/aicraftr_qzknf4.png)](https://aicraftr.app) AI Craftr
+# [![AI Craftr Logo](https://res.cloudinary.com/dyknhuvxt/image/upload/c_scale,w_100/v1730059761/aicraftr_qzknf4.png)](https://aicraftr.app) AI Craftr
 
 **AI Craftr** is an open-source suite of tools designed to support writing and content creation using artificial intelligence, powered by OpenAI’s advanced models. From novelists to researchers and educators, AI Craftr has a module tailored to each unique need.
 
