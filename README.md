@@ -12,6 +12,9 @@ Currently, **AI Craftr** includes the following modules:
 2. **PaperCraftr** - [Explore on GitHub](https://github.com/raestrada/papercraftr)  
    PaperCraftr, currently in development, is aimed at academic writing, assisting with literature organization, citation management, and ensuring consistency in themes and structure.
 
+3. **[![LukaLibre Logo](https://res.cloudinary.com/dyknhuvxt/image/upload/c_scale,w_30/v1744931115/lukalibre-crop_iu8a5x.png) LukaLibre](https://lukalibre.org)** - [Explore on GitHub](https://github.com/raestrada/lukalibre)  
+   LukaLibre is a Chilean financial education platform that provides free, transparent financial education. It helps people improve their financial situation realistically, combat misinformation, and make better financial decisions using AI-powered tools and local data privacy.
+
 ### Future Modules
 
 AI Craftr is expanding with more tools to broaden the suite’s capabilities:

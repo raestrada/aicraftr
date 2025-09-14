@@ -18,19 +18,19 @@
     </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="AI Craftr: Your open-source suite for AI-assisted writing. Powered by OpenAI, AI Craftr offers innovative tools like StoryCraftr for novelists and PaperCraftr for academics, enhancing content creation for writers, researchers, and educators." />
-    <meta name="keywords" content="AI Craftr, Open-source AI writing tools, AI writing assistant, AI novel writing, academic writing with AI, OpenAI-powered writing, StoryCraftr, PaperCraftr, AI content creation, AI-assisted writing suite, writing tools, education tech, research writing, author tools" />
+    <meta name="description" content="AI Craftr: Open-source AI-powered tools with social impact. Featuring LukaLibre - our flagship Chilean financial education platform, plus StoryCraftr for writers and specialized tools empowering creators across multiple domains." />
+    <meta name="keywords" content="AI Craftr, Open-source AI tools, AI writing assistant, AI novel writing, academic writing with AI, financial education, StoryCraftr, PaperCraftr, LukaLibre, ResumeCraftr, AI content creation, AI-assisted suite, writing tools, education tech, fintech, author tools" />
     <meta name="robots" content="index, follow" />
     <meta property="og:title" content="AI Craftr - Your AI-Assisted Writing Suite" />
-    <meta property="og:description" content="Discover AI Craftr, an open-source suite for AI-powered writing assistance. From novel writing with StoryCraftr to academic support with PaperCraftr, boost your content creation with OpenAI-powered tools." />
+    <meta property="og:description" content="Discover AI Craftr, an open-source suite for AI-powered specialized tools. From creative writing with StoryCraftr to financial education with LukaLibre, empowering diverse professional needs with intelligent applications." />
     <meta property="og:image" content="https://res.cloudinary.com/dyknhuvxt/image/upload/v1730059761/aicraftr_qzknf4.png" />
     <meta property="og:url" content="https://aicraftr.app" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="AI Craftr - AI-Assisted Writing Suite" />
-    <meta name="twitter:description" content="Explore AI Craftr for AI-powered writing assistance. Get started with StoryCraftr for novelists or PaperCraftr for researchers." />
+    <meta name="twitter:description" content="Explore AI Craftr for AI-powered specialized tools. From StoryCraftr for writers to LukaLibre for financial education - intelligent solutions for every domain." />
     <meta name="twitter:image" content="https://res.cloudinary.com/dyknhuvxt/image/upload/v1730059761/aicraftr_qzknf4.png" />
     
-    <title>AI Craftr - Your Open-source AI-powered Writing Suite</title>
+    <title>AI Craftr - Your Open-source AI-powered Specialized Tools Suite</title>
     <style>
       body {
         font-family: Arial, sans-serif;
@@ -75,18 +75,41 @@
       }
 
       .suite-container {
-        display: flex;
-        justify-content: space-around;
-        padding: 2em 1em;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2em;
+        padding: 2em;
+        max-width: 1200px;
+        margin: 0 auto;
       }
 
       .tool-card {
-        background-color: #1a1a1a;
-        border-radius: 8px;
-        padding: 1.5em;
-        width: 45%;
+        background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+        border-radius: 12px;
+        padding: 2em;
         text-align: center;
         color: #ddd;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      .tool-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 48px rgba(74, 144, 226, 0.2);
+      }
+
+
+      .community-badge {
+        background: #27ae60;
+        color: white;
+        padding: 0.2em 0.6em;
+        border-radius: 12px;
+        font-size: 0.8em;
+        font-weight: bold;
+        position: absolute;
+        top: 10px;
+        right: 15px;
       }
 
       .tool-card img {
@@ -140,11 +163,35 @@
     <header>
       <img src="https://res.cloudinary.com/dyknhuvxt/image/upload/v1730059761/aicraftr_qzknf4.png" alt="AI Craftr Logo" style="max-width: 200px; height: auto;">
       <h1>Welcome to AI Craftr</h1>
-      <p>Your Open-source Suite for AI-Assisted Writing Tools</p>
+      <p>Your Open-source Suite for AI-Powered Specialized Tools</p>
     </header>
   
     <section>
-      <h2>Current Projects in Development</h2>
+      <div style="max-width: 800px; margin: 0 auto; padding: 0 2em;">
+        <p style="font-size: 1.2em; line-height: 1.6; color: #ccc; margin-bottom: 2em;">
+          AI Craftr is an open-source ecosystem of specialized AI-powered tools designed to enhance productivity across diverse professional domains. From creative writing and academic research to financial education and career development, each tool leverages artificial intelligence to provide tailored solutions for specific needs.
+        </p>
+      </div>
+      
+      <section style="margin: 2em 0;">
+        <h2>Featured Project</h2>
+        <div style="max-width: 1200px; margin: 0 auto; padding: 0 2em;">
+          <div class="tool-card" style="border-top: 4px solid #f39c12; background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%); position: relative;">
+            <div class="community-badge">🇨🇱 Community Impact</div>
+            <img src="https://res.cloudinary.com/dyknhuvxt/image/upload/c_scale,w_80/v1744931115/lukalibre-crop_iu8a5x.png" alt="LukaLibre Logo" />
+            <h3 style="color: #f39c12;">LukaLibre</h3>
+            <p style="font-weight: bold; color: #fff;">
+              Free Financial Education Platform for Chile
+            </p>
+            <p>
+              Our flagship community project providing transparent, accessible financial education to empower Chilean families. LukaLibre combats financial misinformation with privacy-first AI tools and realistic guidance in local language.
+            </p>
+            <a href="https://lukalibre.org" class="button">Explore LukaLibre</a>
+          </div>
+        </div>
+      </section>
+
+      <h2>Other Projects in Development</h2>
       <div class="suite-container">
         
         <!-- StoryCraftr Card -->
@@ -211,8 +258,8 @@
     </section>    
 
     <footer>
-      <p>Follow the development on <a href="https://github.com/raestrada/storycraftr">GitHub</a>.</p>
-      <p>AI Craftr - Powered by OpenAI - &copy; 2024</p>
+      <p>Follow our projects: <a href="https://github.com/raestrada/aicraftr">AI Craftr</a> | <a href="https://github.com/raestrada/storycraftr">StoryCraftr</a> | <a href="https://github.com/raestrada/lukalibre">LukaLibre</a> | <a href="https://github.com/raestrada/papercraftr">PaperCraftr</a></p>
+      <p>AI Craftr - Open-source AI-powered tools ecosystem - &copy; 2025</p>
     </footer>
   </body>
 </html>
